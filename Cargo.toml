@@ -1,0 +1,12 @@
+[package]
+name = "crypti"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+homepage = "https://github.com/brainwo/crypti"
+repository = "https://github.com/brainwo/crypti"
+readme = "README.md"
+authors = ["Brian Wo <45139213+brainwo@users.noreply.github.com>"]
+
+[dependencies]
+clap = { version = "3.2.21", features = ["derive"] }
