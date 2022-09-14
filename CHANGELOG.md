@@ -2,7 +2,7 @@
 
 ### 0.2.1
 
-- [Build] smaller binary size 4.6M > 2.1M
+- [Build] smaller binary size 4.6M > 2.3M
 
 ### 0.2.0
 
