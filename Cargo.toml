@@ -12,5 +12,8 @@ authors = ["Brian Wo <45139213+brainwo@users.noreply.github.com>"]
 [dependencies]
 clap = { version = "3.2.21", features = ["derive"] }
 
+[workspace]
+members = [".", "ref-type"]
+
 [profile.release]
 lto = true
