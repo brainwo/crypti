@@ -1,6 +1,6 @@
 [package]
 name = "crypti"
-version = "0.2.1"
+version = "0.2.2"
 edition = "2021"
 license = "MIT"
 description = "Decoding, encoding, conversion tool"
@@ -10,10 +10,8 @@ readme = "README.md"
 authors = ["Brian Wo <45139213+brainwo@users.noreply.github.com>"]
 
 [dependencies]
-clap = { version = "3.2.21", features = ["derive"] }
-
-[workspace]
-members = [".", "ref-type"]
+clap = { version = "4.0.9", features = ["derive"] }
+itertools = "0.10.4"
 
 [profile.release]
 lto = true
